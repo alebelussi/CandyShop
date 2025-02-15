@@ -1,0 +1,32 @@
+/*
+    --- STILE TABELLA
+*/
+
+table {
+    width: 70%;
+    border-collapse: collapse; /* Rimuove gli spazi tra i bordi */
+    margin: 20px auto; /* 20px sopra e sotto, centrato automaticamente in orizzontale */
+    font-family: Arial, sans-serif; 
+    font-size: 14px;
+    border-radius: 8px;
+    overflow: hidden; /* Nasconde eventuali contenuti che escono dalla tabella */
+}
+
+th, td {
+    padding: 12px; 
+    text-align: left;
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #6086f8; 
+    color: white; 
+}
+
+tr:nth-child(even) {    /* Seleziona solo le righe pari */
+    background-color: #f2f2f2; 
+}
+
+tr:hover {
+    background-color: #ddd;
+}

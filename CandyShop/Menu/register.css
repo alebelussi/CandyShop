@@ -1,0 +1,136 @@
+/*
+  --- STILE PER LA PAGINA DI REGISTRAZIONE
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+  
+/* Container principale del login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 15vh;
+}
+
+/* Box centrale */
+.login-box {
+  display: flex;
+  width: 800px;
+  height: 510px;
+  background: linear-gradient(to top, #89a7ff, #c9d2ff);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5);
+}
+
+/* Sezione del modulo login (a sinistra) */
+.login-form {
+  flex: 1;
+  padding: 40px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  position: relative;
+  width: 100%; 
+  text-align: left; 
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%; 
+  padding: 8px 16px 8px 16px;
+  font-size: 15px;
+  margin-left: 0px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-group input::placeholder {
+  color: #888;
+  font-size: 15px;
+  text-indent: 5px;
+}
+
+.input-group i {
+  position: absolute;
+  left: 3px;
+  top: 65%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.input-button {
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%; 
+  text-align: center; 
+}
+
+button {
+  width: 200px; 
+  padding: 10px;
+  background-color: #6086f8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.input-button button:hover {
+  background-color: #0056b3;
+}
+
+/* Sezione di benvenuto (a destra) */
+.welcome-section {
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.welcome-section p {
+  font-size: 18px;
+  margin-top: 10px; 
+}
+
+.welcome-section {
+  background-size: cover;
+  background-position: center;
+}

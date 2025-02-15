@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CandyShop - Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="loginStyle.css">
+    <link rel="icon" href="../Immagini/logoCandyshop.png" type="image/x-icon">
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="login-box">
+      <div class="login-form">
+        <h2>Accedi al tuo account</h2>
+        <form action="../Utente/login.php" method="POST">
+          <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" id="username" name="username" required autocomplete="off">
+          </div>
+          <div class="input-group">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" id="password" name="password" required autocomplete="off">
+          </div>
+          <div class="input-group">
+            <button type="submit">Accedi</button>
+          </div>
+        </form>
+        <a href="register.php"> Registrati </a>
+      </div>
+
+      <div class="welcome-section">
+        <h2>Benvenuto!</h2>
+        <p>Accedi al tuo account per continuare.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

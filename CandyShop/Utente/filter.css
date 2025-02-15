@@ -1,0 +1,46 @@
+/* 
+    --- STILE FILTRO
+*/
+
+/* CONTENITORE PRINCIPALE DEL FILTRO */
+.filtro {
+    margin-top: 100px; /* Distanza dal menu */
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filtro form {
+    display: flex;
+    flex-direction: row; /* Disposizione orizzontale */
+    align-items: center; 
+}
+
+.filtro label {
+    margin-right: 8px; 
+    font-size: 14px;
+}
+
+.filtro input, .filtro select {
+    padding: 6px;
+    margin-right: 12px; 
+    width: 180px; 
+    font-size: 14px; 
+}
+
+.filtro button {
+    background-color: #6086f8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.filtro button:hover {
+    background-color: #0056b3;
+}

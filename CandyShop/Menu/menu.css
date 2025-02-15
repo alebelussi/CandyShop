@@ -1,0 +1,79 @@
+/*
+    --- STILE PAGINE MENU
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #89a7ff, #c9d2ff); /* Colore schiarito della navbar */
+    padding: 5px 20px;
+    z-index: 1000; /* Porta il menù davanati a tutti gli elementi */
+}
+
+/* Logo */
+.logo-img {
+    height: 80px; 
+}
+
+/* Menu principale */
+.menu {
+    display: flex;
+    list-style-type: none; /* Non viene definito nessuno stile per gli elementi <ul> */
+    margin: 0;
+    padding: 0;
+}
+
+/* Voci del menu */
+.menu-item {
+    position: relative;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Rimuovi l'hover sulla voce normale del menu */
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* Menu a cascata */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #89a7ff; /* Colore più chiaro per il menu a tendina */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.fa-shopping-cart{
+    color: white;
+}
